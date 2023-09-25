@@ -171,9 +171,16 @@ pub enum MediaCode {
 	Mute = 0xe2,
 	VolumeUp = 0xe9,
 	VolumeDown = 0xea,
-	Mail = 0x18A,
+    Mail = 0x18A,
 	Calculator = 0x192,
+    Favorites = 0x182,
+	BrowserBookmarks = 0x22a,
+    BrowserHome = 0x223,
+    BrowserBack = 0x224,
+    BrowserForward = 0x225,
+    BrowserStop = 0x226,
 	ScreenLock = 0x19e,
+    Sleep = 0x32,
     ConsumerControlConfiguration = 0x183,
 }
 
