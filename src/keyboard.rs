@@ -171,10 +171,10 @@ pub enum MediaCode {
 	Mute = 0xe2,
 	VolumeUp = 0xe9,
 	VolumeDown = 0xea,
-	Favorites = 0x182,
+	Mail = 0x18A,
 	Calculator = 0x192,
 	ScreenLock = 0x19e,
-    Settings = 0x183,
+    ConsumerControlConfiguration = 0x183,
 }
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Display)]
